@@ -1,12 +1,11 @@
 buildscript {
     ext{
-        kotlin_version = '1.6.0'
+        kotlin_version = '1.6.21'
         coroutines_version = '1.6.1'
     }
 
     repositories {
         google()
-        jcenter()
         mavenCentral()
         
     }
@@ -20,8 +19,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
-        
+        mavenCentral()
     }
 }
 
